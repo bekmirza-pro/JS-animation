@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: monospace;
+}
+
+.header {
+    background-color: rgb(15, 15, 15);
+    position: relative;
+}
+
+.heading {
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paragraph {
+    color: rgb(195, 34, 34);
+}
